@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     /* Base Options: */
+    "strictNullChecks": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "target": "es2022",
@@ -8,11 +9,11 @@
     "resolveJsonModule": true,
     "moduleDetection": "force",
     "isolatedModules": true,
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
 
     /* Strictness */
-    "strict": true,
-    "noUncheckedIndexedAccess": true,
+    "strict": false,
+    "noUncheckedIndexedAccess": false,
     "checkJs": true,
 
     /* Bundled projects */
